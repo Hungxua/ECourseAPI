@@ -1,10 +1,12 @@
 # ECourseAPI
 category API:
+
     show list categories
     method:GET
     /categories/
 
 courseAPI:
+
     show list courses
     method: GET
     /courses/
@@ -14,6 +16,7 @@ courseAPI:
     /courses/{pk}/lessons/?kw=
 
 lessonAPI:
+
       add tags to lesson
       method: POST
       /lessons/{pk}/tags/
@@ -35,12 +38,14 @@ lessonAPI:
       /lessons/{pk}/views/
       
 userAPI:
+
     get current user
     method: GET
     /users/current-user/
     
 
 commentAPI:
+
     delete comment
     method: DELETE
     /comments/{pk}/
